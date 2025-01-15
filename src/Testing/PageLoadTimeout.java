@@ -2,8 +2,6 @@ package Testing;
 
 import java.time.Duration;
 import java.time.Instant;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class PageLoadTimeout {
@@ -12,7 +10,7 @@ public class PageLoadTimeout {
     System.setProperty("webdriver.chrome.driver", "./Resources/chromedriver.exe");;
     ChromeDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.manage().timeouts().pageLoadTimeout(2, TimeUnit.SECONDS);
+	driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(3));
 	Instant StartTime = Instant.now();
 	System.out.println(StartTime.toString());
 	driver.get("https://www.royalmansour.com/en/");
