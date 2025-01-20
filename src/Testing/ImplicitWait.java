@@ -22,10 +22,9 @@ public class ImplicitWait {
     driver.findElement(By.id("txt1")).sendKeys("Naidu");
     TakesScreenshot Screen = (TakesScreenshot) driver;
 	File sourceFile = Screen.getScreenshotAs(OutputType.FILE);
-	File destFile = new File("./ScreenShot/Textimg1.jpg");
+	File destFile = new File("./ScreenShot/ImplicitWaitTextimg1.jpg");
 	FileUtils.copyFile(sourceFile, destFile);
 	System.out.println("Screenshot saved successfully");
-
     driver.close();
 }
 }
