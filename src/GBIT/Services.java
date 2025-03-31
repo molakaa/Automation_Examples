@@ -15,7 +15,7 @@ public class Services {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "./Resources/chromedriver.exe"); 
 	     WebDriver driver = new ChromeDriver(); 
-	     driver.get("https://www.cbre.com/");
+	     driver.get("https://www.cbre.com");
 	     driver.manage().window().maximize();
 	     Thread.sleep(2000);
 	     driver.findElement(By.id("onetrust-accept-btn-handler")).click();
