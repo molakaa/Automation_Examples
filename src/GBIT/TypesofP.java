@@ -34,8 +34,7 @@ public class TypesofP {
          WebElement netLeaseLink = wait.until(ExpectedConditions.presenceOfElementLocated(
          By.xpath("//a[@href='/services/property-types/alternatives/net-lease' and text()='Net Lease']")));
          netLeaseLink.click();
-         driver.close();
-        
+         driver.close();        
 	}
 
 }
