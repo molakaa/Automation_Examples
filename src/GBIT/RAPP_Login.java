@@ -32,6 +32,7 @@ public class RAPP_Login {
 	     for (WebElement Option : genderOptions) {
 	     System.out.println(Option.getText());
 	     gender.selectByValue("Female"); 
+	     
 	     }
 	     driver.findElement(By.name("mobileNumber")).sendKeys("+14808050511");
 	     driver.findElement(By.name("zipcode")).sendKeys("75063");  	 

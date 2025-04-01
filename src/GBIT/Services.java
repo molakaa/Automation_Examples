@@ -25,6 +25,7 @@ public class Services {
 	     String url = driver.getCurrentUrl();
 		 System.out.println("Page url" +url);
 		 
+		 
 		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));	 
 		 WebElement servicesMenu = driver.findElement(By.className("cbre-c-globalNav__link"));
 		 Actions actions = new Actions(driver);
