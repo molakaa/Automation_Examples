@@ -54,7 +54,9 @@ public class Services {
 		 String T = driver.getTitle();
 		 System.out.println("Page Title: " + T );
 		    
-	     driver.quit(); 	
+	     driver.quit(); 
+	     
+	     
 
 	}
 

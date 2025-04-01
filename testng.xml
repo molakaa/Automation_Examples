@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+<suite name="AutomationSuite">
+    <test name="GBITTests">
+        <classes>
+             <class name="GBIT.SingUp" />
+             <class name="GBIT.Forgotpass" />
+             <class name="GBIT.SaveProp" />             
+             <class name="Testing.TestingNG" />           
+             
+            
+        </classes>
+    </test>
+</suite>

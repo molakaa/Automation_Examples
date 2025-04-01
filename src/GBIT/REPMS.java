@@ -27,6 +27,8 @@ public class REPMS {
 	     System.out.println("After login Page Title is : " + T );
 	     String U = driver.getCurrentUrl();
 		 System.out.println("Page url is :" + U);
+		 driver.findElement(By.xpath("//a[@class='sc-iAKWXU hwzKVo' and contains(text(), ' Save Properties')]")).click();
+		 driver.findElement(By.partialLinkText("Click or press Escape to dismiss.")).click();
 		 
 		 
 //		 driver.close();
