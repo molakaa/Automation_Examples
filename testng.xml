@@ -5,7 +5,7 @@
              <class name="GBIT.SingUp" />
              <class name="GBIT.Forgotpass" />
              <class name="GBIT.SaveProp" />             
-             <class name="Testing.TestingNG" />           
+             <class name="Testing.TestingNG" />     
              
             
         </classes>
